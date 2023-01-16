@@ -1,0 +1,1526 @@
+
+
+.kolk{
+    
+    border: 3px solid purple;
+    height: 50px;
+    width: 100%;
+}
+
+.blockad{
+   float: right; 
+   
+}
+a{
+    margin: 50px;
+    text-decoration: none;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+nav{
+    height: 60px;
+    background-color:#1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+}
+
+#click{
+    display: none;
+}
+
+nav .logo{
+    font-size: 33px;
+    color: #fff;
+    font-weight: 600px;
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0px 2px;
+}
+
+nav ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    
+
+}
+nav ul li a:hover,
+nav ul li a .active{
+    color: #1b1b1b;
+background-color: #fff;
+}
+
+nav.checkbtn i{
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+ @media (max-width:1156px) {
+nav ul{
+    position: fixed;
+    top: 60px;
+    left:0px;
+    background: #111;
+    height:48%;
+    width:100%;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+    
+}
+
+nav #click{
+    display:none;
+}
+
+#click:checked ~ ul{
+    display: block;
+}
+nav ul{
+    display: none;
+}
+nav ul li{
+    margin: 40px 0px;
+}
+nav ul li a{
+    font-size: 20px;
+    display: block;
+
+}
+
+nav ul li a:hover,
+nav ul li a .active {
+    color: cyan;
+    background:none ;
+}
+
+
+} 
+
+
+
+ .background{
+    /* background-color: green; */
+    background-image: url(back5.png.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: none;
+}
+.voice{
+     float: right; 
+    margin-left: 400px;
+}
+.hii{
+    height: 400px;
+    width: 400px;
+    border: 2px solid purple;
+    text-align: center;
+    background-color: purple;
+    
+    
+}
+
+.go{
+    display: none;
+}
+
+
+
+.png{
+    float: left;
+    
+}
+.tim {
+    height: 250px;
+    width: 400px;
+    border: 2px solid white;
+        background-color: purple;
+        margin-left: 100px;
+}
+
+
+ .one{
+    font-size: 50px;
+    color: white;
+    margin-left: 50px;
+} 
+
+
+.tag{
+ background-color: blueviolet;
+ text-decoration: underline;
+ margin: 40%;
+ border-radius: 20px;
+ font-size: 20px;
+ 
+}
+.tag:hover{
+    background-color: blue;
+    font-size: 30px;
+  
+}
+    
+.br1{
+    margin-left: 60%;
+    font-size: 38px;
+    font-weight: 40px;
+    
+}
+
+.jk{
+    margin-left: 50%;
+    background-color: deeppink;
+}
+.jc{
+    margin-left:50% ;
+    background-color: pink; 
+    font-size: 25px;
+}
+
+.com{
+    float: right;
+    border: 2px solid violet;
+    
+}
+.com:hover{
+    background-color: purple;
+    color: white;
+}
+.in{
+    float:right;
+    background-color: black;
+    color: white;
+    
+}
+.in:hover{
+    background-color: red;
+}
+
+
+.lhs{
+    color: white;
+    font-size: 40px;
+    font-weight: 30px;
+    text-decoration:  underline;
+    border-radius: 15px;
+    text-align: center;
+}
+.hcf{
+    background-color: darkred;
+    color: white;
+    border-radius: 10px 10px;
+    text-align: center;
+    margin-left: 700px;
+}.shm{
+    color: purple;
+    color: white; 
+    float: right;
+}
+
+/* about us */
+
+.about{
+    /* background-color: purple; */
+    background-image: url(back4.png.jpg);
+    height: 100vh;
+    width: 100%;
+    opacity: 1;
+
+}
+
+.ssc{
+     color: white;
+      border: 10px solids;
+     padding-top: 10px;
+     
+}
+
+.web{
+    
+    color: green;
+    margin-left: 5%;
+}
+
+
+.pp{
+    background-color:deeppink;
+    color: white;
+    margin-right: 30%; 
+    margin-left:30% ;
+    border-radius: 15px;
+    text-align:center ;
+    text-decoration: underline;
+    text-decoration-thickness:3px;
+    text-decoration-color:blue ;
+}
+
+.sp{
+    height: 550px;
+    width: 1200px;
+    border: 3px solid pink;
+    margin-left: 100px;
+    background-image: url(otp.png);
+    background-repeat: no-repeat;
+    animation-name: demo;
+    background-size: 100% 100%;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes demo {
+    0%{background-image: url(otp.png);}
+    55%{background-image: url(otp2.png);}
+    100%{background-image: url(img1.png);}
+    
+}
+
+.pos{
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 60px;
+    font-weight: 70px;
+    
+}
+
+.was{
+    color: blue;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 30px;
+    font-weight: 40px;
+    word-spacing: 5px;
+    
+}
+.cont{
+    border: 3px solid purple;
+    width: 100%;
+    height: 50px;
+    background-color: deeppink;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.boy{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 30px;
+    border-radius: 20px;
+   border-radius: 3px solid purple;
+   word-spacing: 20px;
+}
+.cj{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+
+.rep{
+    border: 2px solid coral;
+    height:80%;
+    width: 50%;
+    background-color: coral;
+    color: white;
+    margin-left: 50%;
+    font-size: 29px;
+    font-weight: 30px;
+    margin-top: 60px;
+}
+.diskar{
+
+}
+
+.lol{
+    height:450px;
+    width:1200px;
+    border: 3px solid coral;
+    background-image: url(dp.3png.jpg);
+    background-size: 50% 80%;
+    background-repeat: no-repeat;
+    background-color: coral;
+    margin-left: 100px;
+    margin-top: 60px;
+    animation-name: momo;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    
+}
+
+@keyframes momo {
+    0%{background-image: url(dp.3png.jpg);}
+    35%{background-image: url(dp1.png);}
+    70%{background-image: url(dp2.png);}
+    100%{background-image: url(dp5.png);}
+
+
+}
+
+/* more */
+
+.more{
+    /* background-color: crimson; */
+    background-image: url(back1.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: none;
+}
+
+.what{
+    background-color: brown;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+.pk{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: lightcoral;
+    }
+    .pk:hover{
+        background-color: black;
+        color: white;
+    }
+
+.civil{
+    margin-left: 30px;
+    background-color: magenta;
+    color: white;
+}
+
+.jkl{
+    border: 2px solid coral;
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+    height: 50%;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+
+.coa{
+    font-size: 50px;
+    font-weight: 50px;
+    margin-left: 10%;
+}
+
+.dj{
+    border: 2px solid chocolate;
+    height: 270px;
+    width: 1000px;
+    background-color: deeppink;
+    margin-left:90px;
+    margin-top:50px ;
+    display: flex;
+    
+}
+
+
+
+.br{
+    margin-top: 500px;
+    background-color: purple;
+    font-size: 30px;
+    font-weight: 30px;
+    margin-left: 170px;
+    border-radius: 30px;
+    color: white;
+    
+}
+.br:hover{
+    background-color:black;
+    color: darkgreen;
+    font-size: 35px;
+}
+.dr{
+    margin-top: 100px;
+        background-color: purple;
+        font-size: 30px;
+        font-weight: 30px;
+        margin-left: 200px;
+        border-radius: 30px;
+        color: white;
+}
+.dr:hover{
+    background-color: black;
+        color: darkgreen;
+        font-size: 35px;
+}
+.tr{
+    margin-top: 100px;
+        background-color: purple;
+        font-size: 30px;
+        font-weight: 30px;
+        margin-left: 165px;
+        border-radius: 30px;
+        color: white;
+}
+.tr:hover{
+    background-color:black;
+        color: darkgreen;
+        font-size: 35px;
+}
+.sr{
+    margin-top: 100px;
+        background-color: purple;
+        font-size: 30px;
+        font-weight: 30px;
+        margin-left: 160px;
+        border-radius: 30px;
+        color: white;
+}
+.sr:hover{
+    background-color:black;
+        color: darkgreen;
+        font-size: 35px;
+}
+
+.mb{
+    margin-left: 50px;
+    }
+
+    .kb{
+        margin-left: 50px;
+        }
+
+        .tb{
+            margin-left: 50px;
+            }
+        
+    .ppt{
+    
+            height: 700px;
+            width: 1200px;
+            border: 3px solid pink;
+            margin-left: 100px;
+            background-image: url(pic5.png.jpg);
+            animation-name: pic;
+            animation-duration: 12s;   
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            margin-top: 20px;
+    
+        
+}
+
+@keyframes pic {
+    0% {background-image: url(pic3.png.jpg); }
+    35% {background-image: url(picA.png.jpeg);}
+    70%{background-image: url(pic5.png.jpg);}
+    100%{background-image: url(picB.png.jpeg);} 
+
+    
+}
+
+.ooo{
+    border: 2px solid purple;
+    background-color:fuchsia;
+    color: white;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-top: 70px;
+    height: 50px;
+    width: 1000px;
+}
+
+.creat{
+    color: white;
+    text-align: center;
+    margin-top: 647px;
+    margin-left:100px ;
+    border: 2px solid white;
+    height: 50px;
+    width: 1000px;
+    background-color: red;
+    animation-name: zoo;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    border-radius: 25px;
+}
+
+@keyframes zoo {
+    0% {background-color: red;}
+    25% {background-color:yellow;}
+    50%{background-color: blue;}
+    75%{background-color: green;}
+    100%{background-color: violet;}
+
+}
+
+.mno{
+    height: 450px;
+    width: 1000px;
+    border: 2px solid white;
+    background-size: 50% 90%;
+    background-image: url(top1.png.jpg);
+    animation: sundar;
+    animation-duration:14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-repeat: no-repeat;
+    background-color: purple;
+    margin-top: 30px;
+    margin-left: 200px;
+    border-radius: 30px;
+    
+}
+@keyframes sundar {
+0%{background-image: url(top.png.jpg);}
+25%{background-image: url(top1.png.jpg);}
+50%{background-image: url(top2.png.jpg);}
+75%{background-image: url(top3.png.jpg);}
+100%{background-image: url(top4.png.jpg);}
+
+}
+.got{
+float: right;
+font-size: 21px;
+font-weight: 20px;
+border: 2px solid purple;
+height: 450px;
+width: 480px;
+border-radius: 30px;
+text-align: center;
+color: white;
+word-spacing:10px ;
+}
+
+/* login */
+
+.login{
+    background-color: fuchsia;
+}
+
+#yeses{
+    background-image:url(wel.png);
+    background-size: 100%,100%;
+}
+
+.off{
+    height: 850px;
+    width:600px;
+    border: 2px solid white;
+     background-color: purple;
+     /* display: flex; */
+    
+             
+}
+
+.pasw{
+    background-color: magenta;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+}
+
+.bod{
+    margin-left: 80px;
+    background-color: darkviolet;
+    color: white;
+    font-size: 27px;
+}
+.hh{
+    margin-left: 25px;
+    font-size: 10px;
+    font-weight: 10px;
+}
+.hh:hover{
+    background-color:hotpink ;
+}
+
+.pens{
+    margin-left: 80px;
+    font-size: 25px;
+    font-weight: 25px;
+}
+
+.pens:hover{
+    background-color: hotpink;
+}
+.peg{
+    margin-left: 200px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    font-weight: 25px;
+}
+
+.peg:hover{
+    background-color: blue;
+}
+
+.b{
+    border: 3px solid green;
+    background-color: green;
+    border-radius: 100px;
+    margin-left: 80%;
+    margin-top: 0px;
+}
+.b:hover{
+    background-color: blue;
+}
+
+.chand{
+     height: 850px;
+    width: 1200px;
+    border: 3px solid purple;
+    background-color: purple; 
+     margin-top: 50px;
+    margin-left: 100px; 
+    }
+
+ .center{
+    height: 850px;
+    width: 590px;
+        border: 3px solid purple;
+        background-color: purple;
+        background-image: url(image1.png);
+        background-repeat: no-repeat;
+        background-position-x: 55px;
+        background-position-y: 70px;
+        background-size: 45% 50%;
+        animation-name: bank;
+        animation-duration: 12s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;margin-left: -0px;
+        float: right;
+    
+    
+    
+    }
+    
+    @keyframes bank {
+        0% {
+            background-image: url(image1.png);
+        }
+    
+        35% {
+            background-image: url(image2.png);
+        }
+    
+        70% {
+            background-image: url(image3.png);
+        }
+    } 
+  
+
+
+.pco{
+    color: white;
+    text-align: center;
+    margin-top: 550px;
+    font-size: 40px;
+    font-weight:15px ; 
+    
+}
+
+.fill{
+    border: 3px solid white;
+    background-color: fuchsia;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 80px;
+    padding: 30px;
+    border-radius: 30px;
+
+}
+
+.chrome{
+    margin-left: 20px;
+    border:2pxm solid purple ;
+    background-color: yellow;
+    font-size: 35px;
+    border-radius: 20px;
+    color: white;
+}
+.chrome:hover{
+    background-color: indigo;
+    font-size: 40px;
+}
+.google{
+margin-left: 120px;
+    background-color: moccasin;
+    color: black;
+    font-size: 35px;
+        border-radius: 20px;
+}
+
+.google:hover{
+    background-color: indigo;
+    font-size: 40px;
+}
+.youtube{
+    margin-left: 120px;
+        border: 2pxm solid purple;
+            background-color: red;
+            font-size: 35px;
+            border-radius: 20px;
+            color: white;
+}
+
+.youtube:hover{
+    background-color: indigo;
+    font-size: 40px;
+}
+.instagram{
+    margin-left: 120px;
+        border: 2pxm solid purple;
+        background-color: crimson;
+        font-size: 35px;
+            border-radius: 20px;
+            color: white;
+}
+
+.instagram:hover{
+    background-color: indigo;
+    font-size: 40px;
+}
+ 
+.linked{
+    margin-left: 20px;
+    margin-top: 50px;
+        border: 2pxm solid purple;
+            background-color: blue;
+            font-size: 35px;
+                border-radius: 20px;
+                color: white;
+}
+
+.linked:hover{
+    background-color: indigo;
+    font-size: 40px;
+}
+
+.twitter{
+    margin-left: 114px;
+        border: 2pxm solid purple;
+        background-color: deepskyblue;
+        font-size: 35px;
+        border-radius: 20px;
+        color: white;
+}
+
+.twitter:hover{
+    background-color: indigo;
+    font-size: 40px;
+}
+
+.whatsapp{
+    margin-left: 107px;
+        border: 2pxm solid purple;
+        background-color: green;
+        font-size: 35px;
+        border-radius: 20px;
+        color: white;
+}
+
+.whatsapp:hover{
+    background-color: indigo;
+    font-size: 40px;
+}
+
+.facebook{
+    margin-left: 110px;
+        border: 2pxm solid purple;
+        background-color: cornflowerblue;
+        font-size: 35px;
+        border-radius: 20px;
+        color: white;
+}
+
+.facebook:hover{
+    background-color: indigo;
+    font-size: 40px;
+} 
+.game{
+    background-color: purple;
+    color: white;
+    border: 3px solid white;
+    border-radius: 15px;
+    height: 60px;
+    width: 80%;
+    margin-left: 140px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+/* contect */
+
+
+.contact{
+    /* background-color: magenta; */
+    background-image: url(back3.png.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: none;
+    opacity: 1;
+}
+
+.yoyo{
+    font-size: 30px;
+    color: purple;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.buy{
+    color:white ;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: solid;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    
+
+}
+
+.lab{
+    border: 2px solid white;
+    height: 773px;
+    width: 600px;
+    background-color: purple;
+    color: white;
+    margin-left: 29%;
+
+}
+
+.cd{
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+
+.phd{
+    margin-left: 100px;
+    font-size: 30px;
+}
+.phd:hover{
+    background-color: fuchsia;
+}
+
+#rem{
+    font-size: 40px;
+}
+
+.hi{
+    background-color: white;
+    color: lime;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+.hi:hover {
+    background-color: red;
+}
+
+
+.view{
+    background-color: purple;
+    color: white;
+    border: 3px solid white;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 25px;
+}
+
+.jkck{
+    text-align: center;
+    margin-top: 50PX;
+    border: 2PX solid fuchsia;
+    background-color: fuchsia;
+}
+
+.ckjk{
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: purple;
+}
+
+.dad{
+    height: 250px;
+        width: 250px;
+        border: 3px solid purple;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+        margin-left: 40%;
+        background-image: url(member.png.jpg);
+        margin-top: 50px;
+
+}
+
+.mamy{
+    text-align: center;
+    color: white;
+}
+
+.done{
+    height: 250px;
+        width: 250px;
+        border: 3px solid purple;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+        margin-left: 40%;
+        background-image: url(member1.png.jpg);
+        background-color: black;
+}
+.doned {
+    height: 250px;
+    width: 250px;
+    border: 3px solid purple;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    margin-left: 40%;
+    background-image: url(member2.png.jpg);
+    background-color: black;
+}
+
+.bhole{
+    height: 115px;
+    width: 447px;
+    background-color: green;
+    border: 3px solid purple;
+    color: red;
+    float: right;
+
+}
+
+.krishna{
+    border: 2px solid purple;
+    background-color: fuchsia;
+    margin-top: 150px;
+    margin-left: 20%;
+    margin-right: 31%;
+    background-color: purple;
+    color: fuchsia;
+    border-radius: 40px;
+}
+a #gps{
+    background-color: blue;
+}
+
+#checkbtn{
+    float: right;
+    margin-right: 20px;
+    line-height: 40px;
+    color: white;
+    font-size: 25px;
+    display: none;
+}
+#check{
+    display: none;
+}
+.grade{
+    height: 250px;
+        width: 250px;
+        border: 3px solid purple;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+        margin-left: 40%;
+        background-image: url(member.png.jpg);
+        margin-top:50px;
+}
+
+.roshan{
+    height: 250px;
+        width: 250px;
+        border: 3px solid purple;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+        margin-left: 40%;
+        background-image: url(member.png.jpg);
+        margin-top: 300px;
+ }
+
+ .by{
+    background-color: purple;
+    border-radius: 15px;
+    font-size: 35px;
+ }
+
+  @media (max-width:963px) {
+ #checkbtn{
+        
+        display: block;
+}
+
+@media (max-width:1374px) {
+
+.voice{
+    display: block;
+    order: 1;
+    width: -10%;
+    height: 250px;
+    float: right;
+    
+}
+
+.hii{
+    display: block;
+    height: 400px;
+    width: 374px;
+    margin-top: 450px;
+    background-color: purple;
+    text-align: center;
+    
+}
+
+.png{
+    display: block;
+        order: 2;
+        width: 100%;
+        height: 250px;
+        text-align: center;
+        margin-left: 00px;
+        margin-top: 30px;
+}
+
+.rhs{
+    display: block;
+        text-align: center;
+         margin-left: 0px;
+        font-size: 30px;
+        margin-top: 30px;
+        float: left;
+
+
+}
+.hcf{
+    margin-left: 0px;
+    display: inline;
+    text-align: center;
+}
+
+.roshan{
+    margin-top: 1250px;
+    display: block;
+    margin-left: 100px;
+    
+}
+
+
+
+#croup{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    float: left;    
+    
+}
+
+.boto{
+    margin-left: 50px;
+    width: 100%;
+    display: block;
+    margin-top:30px;
+   
+}
+
+
+    
+}
+
+
+/* about */
+
+@media (max-width:1300px) {
+    
+    .ssp{
+        display: block;
+            text-align: center;
+            margin-left: 5px;
+            color:white;
+            background-color:deeppink;
+            border-radius: 20px;
+
+    }
+
+    .sp{
+        display: block;
+        order: 1;
+        width: 100%;
+        margin-left: 0px;
+        
+
+    }
+    .pos{
+        font-size: 30px;
+    }
+
+    .cont{
+        display: block;
+        text-align: center;
+        background-color: fuchsia;
+    }
+ .rep{
+        display: block;
+         text-align: center;
+         background-color: blue;
+        margin-top: 300px;
+        margin-left: 0px;
+            float: left;
+             width: 375px;
+            height: 250px;
+        font-size: 20px;
+        }
+    .lol{
+        
+        width: 100%;
+        display: block;
+        order: 2;
+        height: 400px;
+        background-color: purple;
+        border: 2px purple;
+        float: right;
+    }
+   #beauti{
+    margin-top:700px ;
+    margin-left: 50px;
+   }
+
+   
+    
+/* login responmsive*/
+    
+}
+
+@media (max-width:1220px) {
+     
+    .eco{
+        font-size: 27px;
+        text-align: center;
+    }
+
+      .off{  display: block;
+         float: left;
+         width: 100%;
+        
+    } 
+
+        #yeses{
+            display: block;
+            width: 100%;
+        }
+
+        .chand{
+            height: 850px;
+            width: 600px;
+            margin-left: 0px;
+            background-size: 100%;
+        }
+        #yeses{
+            background-color: fuchsia;
+            background-size: 0%;
+        }
+
+    .game{
+          width: 400px;
+          display: block;
+          margin-left: 115px;
+          margin-top: 900px;
+          
+
+     }
+
+         .fill{
+            height: 355px;
+            width: 505px;
+            margin-left: 0px;
+            margin-top: 40px;
+            background-color: green;
+           
+         }
+
+        .chrome{
+            float: left;
+            display: block;
+            margin: 0px;
+            font-size: 50px;
+            color: black;
+            
+        }
+        .youtube{
+            float: left;
+                display: block;
+                margin-left: 0px;
+                font-size: 50px;
+                margin-top: 0px;
+        }
+
+        .google{
+            float: left;
+                display:block;
+                margin-left: 100px;
+                font-size: 50px;
+                margin-top: 0px;
+                
+        }
+
+        .instagram{
+            float: left;
+                display: block;
+                margin-left:10px;
+                font-size: 50px;
+                margin-top: 0px;
+        }
+
+        .linked{
+            float: left;
+                display: block;
+                margin: 0px;
+                font-size: 50px;
+                margin-top: 0px;
+        }
+
+        .twitter{
+            float: left;
+                display: block;
+                margin-left:80px;
+                font-size: 50px;
+                margin-top: 0px;
+        }
+
+        .facebook{
+
+        float: left;
+            display: block;
+            margin-left: 0px;
+            font-size: 50px;
+            margin-top: 0px;
+
+        }
+
+        .whatsapp{
+            float: left;
+                display: block;
+                margin-left: 0px;
+                font-size: 50px;
+                margin-top: 0px;
+        }
+
+        .grade{
+            margin-top: 60px;
+            margin-left: 170px;
+       
+        }
+
+        .botne{
+            margin-left:100px;
+            display: block;
+            width: 100%;
+        }
+        
+}
+
+/* contect us responsive */
+
+@media (max-width:1100px) {
+
+    .view{
+        display: block;
+        width: 100%;
+        margin-left: 100px;
+    }
+    .lab{
+        margin-left: 0px;
+        display: block;
+
+    }
+    .bhole{
+        display: block;
+       float: left;
+       border: 3px solid purple;
+    }
+
+    .krishna{
+        display: block;
+        width: 500px;
+    }
+    .that{
+        display: block;
+        margin-left: 90px;
+        width: 100%;
+    }
+
+    .boted{
+        display: block;
+        margin-left: 100px;
+        width: 100%;
+    }
+    
+}
+
+/* more reesponsive */
+
+@media (max-width:1200px) {
+
+    .jkl{
+        display: block;
+        width:100%;
+        height:200px;
+        margin-left: 0px;
+    }
+
+    .coa{
+        font-size: 30px;
+    }
+    .dj{
+        display:block; 
+        width: 100%;
+        margin-left:0px;
+        height: 1570px;
+
+     
+    }
+         .gb{
+            
+            margin-left: 0px;
+            width: 100%;
+         }
+         .kb{
+        margin-left: 0px;
+        width: 100%;
+         }
+
+         .mb{
+            margin-left: 0px;
+            width: 100%;
+         }
+
+         .tb{
+            margin-left: 0px;
+            width: 100%;
+         }
+
+         .br{
+            margin-top:-100px;
+         }
+        
+
+
+    
+    .ooo{
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .ppt{
+        display: block;
+        margin-left: 0px;
+        width:100%;
+        height: 500px;
+    }
+
+    .creat{
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .mno{
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        background-size: 100%;
+        margin-left: 0px;
+    }
+
+    .got{
+        display: block;
+        float: left;
+        width: 100%;
+        margin-top: 500px;
+        background-color: purple;
+        height:470px;
+    }
+
+    #drop{
+        margin-top: 600px;
+        margin-left: 70px;
+
+    }
+
+    .bot{
+        margin-left: 0px;
+        width: 100%;
+    }
+        
+    
+}
+
+
+}
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
